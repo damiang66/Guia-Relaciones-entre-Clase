@@ -1,0 +1,6 @@
+com\mycompany\ejercicio3\Ejercicio3.class
+com\mycompany\ejercicio3\entidades\Baraja.class
+com\mycompany\ejercicio3\entidades\Carta.class
+com\mycompany\ejercicio3\servicios\BarajaService.class
+com\mycompany\ejercicio3\servicios\CartaService.class
+com\mycompany\ejercicio3\entidades\enumeraciones\Palo.class

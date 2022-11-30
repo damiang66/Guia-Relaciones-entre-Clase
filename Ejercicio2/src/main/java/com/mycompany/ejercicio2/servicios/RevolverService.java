@@ -11,7 +11,8 @@ public class RevolverService {
     public Revolver llenarRevolver(){
            Revolver r = new Revolver();
         Random aleatorio = new Random();
-        int l=0;
+
+           int l=0;
        while(l==0){
         r.setPosicionAgua(aleatorio.nextInt(6));
         int actual = aleatorio.nextInt(6);
@@ -21,7 +22,11 @@ public class RevolverService {
             r.setPosicionActual(actual);
             l=1;
         }
-       }
+         }
+     
+    // r.setPosicionActual(aleatorio.nextInt(6));
+    // r.setPosicionAgua(aleatorio.nextInt(6));
+      
       
         
         return r;
@@ -35,7 +40,9 @@ public class RevolverService {
         return validar;
     }
     public void SiguienteChorro(Revolver r){
-        
+      //  if(r.getPosicionActual()==6){
+          //  r.setPosicionActual(1);
+      //  }
             r.setPosicionActual(r.getPosicionActual()+1);
         }
         

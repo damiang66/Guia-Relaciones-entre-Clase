@@ -56,21 +56,21 @@ public class BarajaService {
     public List<Carta> darCartas(Baraja b, int cantidad) {
         List<Carta> lista = new ArrayList();
     
-        
-        if (listaCartas.size() > cantidad) {
+        System.out.println(salidas.size());
+        if (salidas.size() !=40) {
             for (int i = 0; i < cantidad; i++) {
-                if (salidas.size() == 40) {
-                    System.out.println("termino");
-                } else {
+               
+              
                     salidas.add(b.getListaCarta().get(i));
                    
 
-                }
+           
                 
 
             }
             for (int i = 0; i < cantidad; i++) {
-                listaCartas.remove(i);
+              
+                  listaCartas.remove(0);
             }
             return salidas;
         } else {

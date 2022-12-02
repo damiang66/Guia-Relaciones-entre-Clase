@@ -8,7 +8,6 @@ import java.util.List;
 public class CartaService {
 
     List<Carta> lista = new ArrayList();
-
     public List<Carta> crear() {
        
 

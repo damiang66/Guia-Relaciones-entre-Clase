@@ -41,6 +41,7 @@ public class PersonaService {
         }
         
         listaPersona.add(persona);
+        
         return listaPerro;
     }
   

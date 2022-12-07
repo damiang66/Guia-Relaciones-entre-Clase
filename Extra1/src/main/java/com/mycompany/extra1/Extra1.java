@@ -1,6 +1,7 @@
 
 package com.mycompany.extra1;
 
+
 import com.mycompany.extra1.service.PerroService;
 import com.mycompany.extra1.service.PersonaService;
 import java.util.Scanner;
@@ -9,6 +10,8 @@ import java.util.Scanner;
 public class Extra1 {
 
     public static void main(String[] args) {
+      
+        
         Scanner leer = new Scanner(System.in);
         System.out.println("ingrese la cantidad de Perros");
         PerroService perroService = new PerroService();
@@ -24,5 +27,7 @@ public class Extra1 {
             
         }
         System.out.println(personaService.listarPersona()); 
+
     }
+
 }

@@ -1,8 +1,7 @@
 package com.mycompany.extra4;
 
 import com.mycompany.extra4.entidades.Simulador;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Extra4 {
 

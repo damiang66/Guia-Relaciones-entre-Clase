@@ -121,16 +121,16 @@ public class Simulador {
     }
     public void facilitador(){
         Collections.sort(listaPersona,new Alumno());
-        System.out.println("facilitarores");
+        System.out.println("facilitadores");
         for (int i = 0; i < listaPersona.size(); i++) {
-            if(i<6){
+            if(i<5){
             System.out.println(listaPersona.get(i));
             }
         }
         System.out.println("-------------------");
         System.out.println("Suplentes");
         for (int i = 5; i < listaPersona.size(); i++) {
-            if (i<11){
+            if (i<10){
             System.out.println(listaPersona.get(i));
             }
         }
